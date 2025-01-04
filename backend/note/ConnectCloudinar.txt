@@ -1,0 +1,3 @@
+
+first go to cloudinary :- than login :- go to Dashbord :- click button go to API key :- Now click on new API key:- change key name according to you
+And get :-  Cloud name , API key , API Secret   :- this three is write in:-  .env file
