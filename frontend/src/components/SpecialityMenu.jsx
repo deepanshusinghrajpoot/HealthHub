@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from './header'
+import { Header } from './Header'
 import { specialityData } from '../assets/assets'
 import { Link } from 'react-router-dom'
 
