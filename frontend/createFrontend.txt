@@ -1,0 +1,50 @@
+******************* project is created by vite package ******************************
+
+commond:- npm create vite@latest
+          project name :- frontend
+
+          select :- react and javascript
+          go in folder frontend
+
+commond:- npm install
+commond:- npm install axios react-router-dom react-toastify
+
+
+
+
+********************* Now
+  clear:-  App.jsx
+  clear:-  index.css
+  delete:- App.css
+  *** go assets
+    
+
+************************** How to add tailwind 
+
+stemp-1:-     npm install -D tailwindcss postcss autoprefixer         // It install tailwind in dependencies
+       :-     npx tailwindcss init -p                                 // It create:- tailwind.config.js file
+
+
+stem-2:-    pase in tailwind.config.js
+      :-   /** @type {import('tailwindcss').Config} */
+                        export default {
+                               content: [
+                                       "./index.html",
+                                       "./src/**/*.{js,ts,jsx,tsx}",
+                               ],
+                               theme: {
+                                       extend: {},
+                               },
+                               plugins: [],
+                        }
+
+step-3:-   paste in index.css file
+     
+      :-      @tailwind base;
+              @tailwind components;
+              @tailwind utilities;
+
+
+
+**********************
+for template :-   rafc             

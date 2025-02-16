@@ -1,0 +1,44 @@
+
+********* open frontend folder :- and go to vite.config.js file
+
+define:-   server:{port:5173},
+
+********* open admin folder :- and go to vite.config.js file
+
+define:-   server:{port:5173},
+
+
+
+******************** How to setup tailwind in :- tailwind vite ****************************
+
+
+
+
+
+
+****    (1) paste in terminal on by one :- npm install -D tailwindcss postcss autoprefixer
+                                           npx tailwindcss init -p
+
+
+        
+        (2) paste in tailwind.js:- /** @type {import('tailwindcss').Config} */
+                                       export default {
+                                                        content: [
+                                                                    "./index.html",
+                                                                    "./src/**/*.{js,ts,jsx,tsx}",
+                                                                 ],
+                                                                 theme: {
+                                                                          extend: {},
+                                                                 },
+                                                                 plugins: [],
+                                                      }
+
+
+         (3) paste in index.css :- @tailwind base;
+                                   @tailwind components;
+                                   @tailwind utilities;
+
+
+
+
+  
