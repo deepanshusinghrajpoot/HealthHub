@@ -11,7 +11,8 @@ import tick_icon from './tick_icon.svg'
 import appointments_icon from './appointments_icon.svg'
 import earning_icon from './earning_icon.svg'
 import patients_icon from './patients_icon.svg'
-import Health_Hub  from './Health_Hub.png'
+import HealthHub_logo from './Health_Hub.png'
+import HealthHub_titel_logo from './Health_Hub_titel_logo.png'
 
 export const assets = {
     add_icon,
@@ -27,5 +28,6 @@ export const assets = {
     tick_icon,
     appointments_icon,
     earning_icon,
-    Health_Hub
+    HealthHub_logo,
+    HealthHub_titel_logo
 }
